@@ -33,8 +33,7 @@ end
 def valid_phone_number?(phone)
         binding.pry
  if phone.match(/\.*.\d\d\d.\d\d\d.\d\d\d\d*/)
-
-   return true 
+  return true 
 else
     return false 
 end
